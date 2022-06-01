@@ -1,0 +1,10 @@
+pipeline {
+    agent santunode01
+    stages{
+        stage('terraform init') {
+            steps{
+                sh "terraform init"
+            }
+        }
+    }
+}
