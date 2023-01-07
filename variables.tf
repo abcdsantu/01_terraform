@@ -52,7 +52,7 @@ variable "instance_type" {
   default = "t2.micro"  
 }
 
-# AWS EC2 Instance Key Pair
+# AWS EC2 Instance Key Pair to login
 variable "instance_keypair" {
   description = "EC2 Key  "
   type = string

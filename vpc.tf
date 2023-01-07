@@ -26,7 +26,7 @@ module "vpc" {
   }
 }
 
-##Output
+##Outputs
 # VPC ID
 output "vpc_id" {
   description = " VPC_ID"
